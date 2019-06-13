@@ -29,7 +29,7 @@
         
         [globalContext addScriptingSupport:@"Foundation"];
         [globalContext addScriptingSupport:@"UIKit"];
-        [globalContext addScriptingSupport:@"QuartzCore"];
+        //[globalContext addScriptingSupport:@"QuartzCore"];
     });
     
     return globalContext;

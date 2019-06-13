@@ -70,8 +70,10 @@
 - (NSArray *)timedMetadata;
 - (void)setBackgroundColor:(UIColor *)backgroundColor;
 - (UIColor *)backgroundColor;
+#if OLD
 - (void)setMovieControlMode:(MPMovieControlMode)movieControlMode;
 - (MPMovieControlMode)movieControlMode;
+#endif
 
 #pragma clang diagnostic pop
 

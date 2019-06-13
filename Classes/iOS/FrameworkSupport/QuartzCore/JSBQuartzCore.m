@@ -37,8 +37,10 @@
     class_addProtocol([CADisplayLink class], @protocol(JSBCADisplayLink));
     context[@"CADisplayLink"] = [CADisplayLink class];
 
+#if OLD
     class_addProtocol([CAEmitterBehavior class], @protocol(JSBCAEmitterBehavior));
     context[@"CAEmitterBehavior"] = [CAEmitterBehavior class];
+#endif
 
     class_addProtocol([CAEmitterCell class], @protocol(JSBCAEmitterCell));
     context[@"CAEmitterCell"] = [CAEmitterCell class];

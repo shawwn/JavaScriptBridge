@@ -15,7 +15,9 @@
 @property (getter = isEnabled) BOOL enabled;
 
 + (NSArray *)behaviorTypes;
+#if OLD
 + (CAEmitterBehavior *)behaviorWithType:(NSString *)type;
+#endif
 
 - (id)initWithType:(NSString *)type;
 

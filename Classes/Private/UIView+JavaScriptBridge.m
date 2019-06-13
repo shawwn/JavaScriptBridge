@@ -31,7 +31,7 @@
     void(^actionsWithoutAnimation)() = NULL;
     if (!function.isUndefined) {
         actionsWithoutAnimation = ^() {
-            dispatchFunction(currentSelf, actionsWithoutAnimation, nil);
+            dispatchFunction(currentSelf, function, nil);
         };
     }
     
